@@ -1,5 +1,6 @@
 const express=require("express");
-const usuariosRutas=require("./rutas/rutasUsuarios");
+//const usuariosRutas=require("./rutas/rutasUsuarios");
+const usuariosRutas=require("./rutas/rutasProductos");
 const app=express();
 app.use(express.urlencoded({extended:true}));
 app.use(express.json());
